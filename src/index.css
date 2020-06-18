@@ -11,3 +11,115 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.statewise .card-header,.statewise .card-footer{
+  background: #d71f1f;
+  color: #fff;
+}
+.statewise .col-6{
+  margin-bottom: 10px;
+}
+.navbar-fixed-left {
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 139px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+.tableFixHead          { overflow-y: auto; height: 470px; }
+.tableFixHead thead th { position: sticky; top: 0; }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+th     { background:#eee; }
+
+/* Made with love by Mutiullah Samim*/
+
+.loginPage{
+  background-image: url('assets/1200w_x1200h_virus-4835301_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 722px;
+  font-family: 'Numans', sans-serif;
+}
+
+.loginPage .card{
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.loginPage .card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.loginPage .input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+.loginPage input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.login_btn{
+  color: black !important;
+  background-color: #FFC312 !important;
+  width: 100px !important;
+}
+
+.login_btn:hover{
+  color: black !important;
+  background-color: white !important;
+}
+
+.loginPage .links{
+color: white;
+}
+
+.loginPage .links a{
+margin-left: 4px;
+}
+
+.loginPage .card{
+  margin-top: 100px;
+}
